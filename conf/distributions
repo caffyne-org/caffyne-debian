@@ -1,0 +1,13 @@
+Codename: noble
+Suite: noble
+Components: main
+Architectures: amd64 arm64 source
+Description: Caffyne Shell apt repo (Ubuntu 24.04)
+SignWith: yes
+
+Codename: trixie
+Suite: trixie
+Components: main
+Architectures: amd64 arm64 source
+Description: Caffyne Shell apt repo (Debian 13)
+SignWith: yes

@@ -1,0 +1,41 @@
+Package: python3-fabric-widgets
+Source: python-fabric-widgets
+Version: 0.0.2-1+noble
+Architecture: all
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 414
+Depends: python3-cairo, python3-click, python3-gi, python3-loguru, python3:any, python3-psutil
+Homepage: https://github.com/Fabric-Development/fabric
+Priority: optional
+Section: python
+Filename: pool/main/p/python-fabric-widgets/python3-fabric-widgets_0.0.2-1+noble_all.deb
+Size: 64316
+SHA256: 860e09e3d8d599a4ea1794131921563fe98b4f502c1dca234426809427de429f
+SHA1: ea49451659eea399a7d6ca4cdda2c54fcb84cb42
+MD5sum: f3ccb98faed3632fd0a7448644ef8b62
+Description: Next-generation framework for building desktop widgets using Python
+ Fabric is a next-generation framework for building desktop widgets and
+ shell components using Python and GTK. It provides a high-level API for
+ creating Wayland layer shell surfaces, system applets, and desktop
+ integrations.
+
+Package: python3-thefuzz
+Source: python-thefuzz
+Version: 0.22.1-1+noble
+Architecture: all
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 42
+Depends: python3:any, python3-rapidfuzz
+Homepage: https://github.com/seatgeek/thefuzz
+Priority: optional
+Section: python
+Filename: pool/main/p/python-thefuzz/python3-thefuzz_0.22.1-1+noble_all.deb
+Size: 7720
+SHA256: ecf733890af7b17ba27d340acddbe303f24e16815cfcc4967689a1f5a3d50995
+SHA1: 7179234f5332f354c95f89d0af667e781260008a
+MD5sum: 72861831feb398553c4843d0e03bbeb8
+Description: Fuzzy string matching in Python
+ thefuzz is a Python library for fuzzy string matching using Levenshtein
+ distance. It provides simple-to-use functions for matching and scoring
+ strings against each other.
+

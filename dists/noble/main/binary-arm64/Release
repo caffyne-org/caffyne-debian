@@ -1,0 +1,4 @@
+Archive: noble
+Component: main
+Architecture: arm64
+Description: Caffyne Shell apt repo (Ubuntu 24.04)

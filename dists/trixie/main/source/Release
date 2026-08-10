@@ -1,0 +1,4 @@
+Archive: trixie
+Component: main
+Architecture: source
+Description: Caffyne Shell apt repo (Debian 13)

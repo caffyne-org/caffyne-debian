@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Suite: trixie
+Codename: trixie
+Date: Mon, 10 Aug 2026 22:50:48 UTC
+Architectures: amd64 arm64
+Components: main
+Description: Caffyne Shell apt repo (Debian 13)
+MD5Sum:
+ c0ee166e53cdf61660a9dd7940f19372 7230 main/binary-amd64/Packages
+ a2838c62bf37109b4e8c212a24d1445b 2689 main/binary-amd64/Packages.gz
+ 5588cce0075faa7e6646bb8a549ce81d 100 main/binary-amd64/Release
+ 6f33cb2038a0ea527b3f3290e74d4e11 1685 main/binary-arm64/Packages
+ e9e3b9ff986187538499ad9b766b2436 817 main/binary-arm64/Packages.gz
+ 22b6b5ca27b5dd7e2bfd205b8f432483 100 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 3eb59ecc80da7e63f053ca18667d5cd1 101 main/source/Release
+SHA1:
+ 993eae04c192405dc707623778ce518e7f236a4b 7230 main/binary-amd64/Packages
+ 8dc2be8c51f2839f59124e189f3f298b7a903f77 2689 main/binary-amd64/Packages.gz
+ 39de5849c31183bb661c68bf37868094353aec25 100 main/binary-amd64/Release
+ bbe96b4b9316d2d309cb7d12283999a86e166b09 1685 main/binary-arm64/Packages
+ bc06a92571dc99d2ec1b9ad6c7db4b311115d42d 817 main/binary-arm64/Packages.gz
+ bcf4ce3a41a4a208e98ac7e926d110b8a1db79e2 100 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ f46fdb477679c14b44e1ed28a8c4d625742fb87a 101 main/source/Release
+SHA256:
+ abab8ff70348880a717a6da37d939c43db06d8cb9703abe6a1931c65942f7a72 7230 main/binary-amd64/Packages
+ 7f0540b769d8ae432319ac4d75f3dadcca56c9bb05ae11851f31242678f70cd3 2689 main/binary-amd64/Packages.gz
+ bcda8f750646dcad37c64b4a4978f72c223e5ffdc1e804a83bb9013475a559d4 100 main/binary-amd64/Release
+ db24f572c3beb3a4a7853c61b8d5c8104edfbd4f75e4a01fd1ea09a46bc080f3 1685 main/binary-arm64/Packages
+ 0daf58c0b92668fa527c4d6529a73cc2c512e83cfe6a9276d19fb2161f0ebd27 817 main/binary-arm64/Packages.gz
+ f4219291cfe3107d974ebac16c49f4fcbbb85820644c3bbe5fff42509b91f6a1 100 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 945ec0b9b09db5decbb7ed09427b5caeb44a432f7844a47c994c84dadae04022 101 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQle40fZk4037H7N7V1+rPWrPVyzAUCanpVyAAKCRB1+rPWrPVy
+zJCXAP4szlvJuLBEIcWOqAWql9VM+v2dk1Z92z+nHSC71Tb22AEA12zeVfn6E61E
+QhMdRapmBFn5mkCZCNeg1Fy5NV5N5Aw=
+=rj6N
+-----END PGP SIGNATURE-----

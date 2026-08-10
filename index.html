@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Caffyne Shell apt repo</title></head>
+<body>
+<h1>Caffyne Shell apt repo</h1>
+<h2>Ubuntu 24.04 (noble)</h2>
+<pre>
+echo "deb [signed-by=/etc/apt/keyrings/caffyne.gpg] https://caffyne-org.github.io/caffyne-deb noble main" \
+  | sudo tee /etc/apt/sources.list.d/caffyne.list
+</pre>
+<h2>Debian 13 (trixie)</h2>
+<pre>
+echo "deb [signed-by=/etc/apt/keyrings/caffyne.gpg] https://caffyne-org.github.io/caffyne-deb trixie main" \
+  | sudo tee /etc/apt/sources.list.d/caffyne.list
+</pre>
+</body>
+</html>

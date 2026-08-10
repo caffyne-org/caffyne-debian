@@ -1,0 +1,117 @@
+Package: awww
+Version: 0.12.1-1+noble
+Architecture: amd64
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 8474
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), liblz4-1 (>= 0.0~r130)
+Homepage: https://codeberg.org/LGFae/awww
+Priority: optional
+Section: x11
+Filename: pool/main/a/awww/awww_0.12.1-1+noble_amd64.deb
+Size: 2285564
+SHA256: 6216608446ff367c6946107e3aa33047e2c03da295555180b437cbdda5d709e2
+SHA1: 39d393ec23f582e9cbcc74e9a092f461a0894430
+MD5sum: 8128fd6a561873a9dac7bc654033e693
+Description: Wayland wallpaper daemon
+ awww is a Wayland wallpaper daemon. It provides a daemon and a client
+ binary for setting and managing wallpapers on Wayland compositors.
+
+Package: caffyne-shell
+Version: 1.0.0-1+noble
+Architecture: amd64
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 27262
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.9.10), libwayland-client0 (>= 1.20.0), python3-fabric-widgets (>= 0.0.2), fabric-cli, awww (>= 0.12.1), python3-thefuzz, python3-cffi, python3-click, python3-loguru, python3-pam, python3-pil, python3-psutil, python3-cairo, python3-pycparser, python3-gi, python3-rapidfuzz, python3-setproctitle, python3-six, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, libdbusmenu-gtk3-4, cinnamon-core, gnome-bluetooth-3-common, matugen, playerctl, brightnessctl, wf-recorder, upower, network-manager, bluez, swayidle, libgtk-session-lock0 | gtk-session-lock
+Homepage: https://github.com/caffyne-org/caffyne-shell
+Priority: optional
+Section: x11
+Filename: pool/main/c/caffyne-shell/caffyne-shell_1.0.0-1+noble_amd64.deb
+Size: 22634758
+SHA256: 892347ec0e7c034b415383957c854d75a00daf2fc3e046edb82e005816129b05
+SHA1: 4baa0a559a397513ca718850fa96f4b167ca3787
+MD5sum: 29fa172f00db92116dab9a6052301e2b
+Description: Modern GTK-based desktop shell built on top of Fabric
+ caffyne shell is a modern, GTK-based desktop shell built on top of Fabric,
+ Python, and GTK. It features a highly customizable drag-and-drop panel,
+ fluid animations, and deeply integrated system applets designed specifically
+ for modern Wayland compositors.
+
+Package: fabric-cli
+Version: 0~git20260810-1+noble
+Architecture: amd64
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 10537
+Depends: libc6 (>= 2.34)
+Homepage: https://github.com/Fabric-Development/fabric-cli
+Priority: optional
+Section: utils
+Filename: pool/main/f/fabric-cli/fabric-cli_0~git20260810-1+noble_amd64.deb
+Size: 3442116
+SHA256: b80abbc2250b153aa659c370ed60e97a24a9b5d0d441f271fa81496f41522254
+SHA1: 1ad5036f1eee4a2876ccf36e55371843eab0d37d
+MD5sum: 03768cbbef01b7fd85a359c34a43575f
+Description: Command-line interface for the Fabric desktop widget framework
+ fabric-cli is the command-line interface for the Fabric desktop widget
+ framework. It provides tooling for managing and interacting with Fabric
+ widget instances.
+
+Package: matugen
+Version: 4.1.0-1+noble
+Architecture: amd64
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 8779
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2)
+Homepage: https://github.com/InioX/matugen
+Priority: optional
+Section: utils
+Filename: pool/main/m/matugen/matugen_4.1.0-1+noble_amd64.deb
+Size: 2869708
+SHA256: 94092be87082998d5618e1b6e40e73f00cbc9fa4a8ba7c9462675f30e40c4a30
+SHA1: 2bc5f873f2e67b48ed5c1edcaf7e3b06d84665f8
+MD5sum: 5f3a8addfd228dbed53ec1da90bc254b
+Description: Material You and base16 color generation tool
+ Matugen is a cross-platform tool that generates Material You and base16
+ color palettes from either an image or a single color, allowing you to
+ export them as JSON or reference them within templates.
+
+Package: python3-fabric-widgets
+Source: python-fabric-widgets
+Version: 0.0.2-1+noble
+Architecture: all
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 414
+Depends: python3-cairo, python3-click, python3-gi, python3-loguru, python3:any, python3-psutil
+Homepage: https://github.com/Fabric-Development/fabric
+Priority: optional
+Section: python
+Filename: pool/main/p/python-fabric-widgets/python3-fabric-widgets_0.0.2-1+noble_all.deb
+Size: 64316
+SHA256: 860e09e3d8d599a4ea1794131921563fe98b4f502c1dca234426809427de429f
+SHA1: ea49451659eea399a7d6ca4cdda2c54fcb84cb42
+MD5sum: f3ccb98faed3632fd0a7448644ef8b62
+Description: Next-generation framework for building desktop widgets using Python
+ Fabric is a next-generation framework for building desktop widgets and
+ shell components using Python and GTK. It provides a high-level API for
+ creating Wayland layer shell surfaces, system applets, and desktop
+ integrations.
+
+Package: python3-thefuzz
+Source: python-thefuzz
+Version: 0.22.1-1+noble
+Architecture: all
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 42
+Depends: python3:any, python3-rapidfuzz
+Homepage: https://github.com/seatgeek/thefuzz
+Priority: optional
+Section: python
+Filename: pool/main/p/python-thefuzz/python3-thefuzz_0.22.1-1+noble_all.deb
+Size: 7720
+SHA256: ecf733890af7b17ba27d340acddbe303f24e16815cfcc4967689a1f5a3d50995
+SHA1: 7179234f5332f354c95f89d0af667e781260008a
+MD5sum: 72861831feb398553c4843d0e03bbeb8
+Description: Fuzzy string matching in Python
+ thefuzz is a Python library for fuzzy string matching using Levenshtein
+ distance. It provides simple-to-use functions for matching and scoring
+ strings against each other.
+
