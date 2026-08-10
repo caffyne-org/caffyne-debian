@@ -1,12 +1,12 @@
 Suite: trixie
 Codename: trixie
-Date: Mon, 10 Aug 2026 23:14:00 UTC
+Date: Mon, 10 Aug 2026 23:27:54 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Caffyne Shell apt repo (Debian 13)
 MD5Sum:
- 445099decf1d625a17624c8d0b6f5c1e 7230 main/binary-amd64/Packages
- 21c81c212dd2e0f74a1c4d70ea16e2e5 2686 main/binary-amd64/Packages.gz
+ ce9a5b587f60139a36bca8b0afec1f47 7230 main/binary-amd64/Packages
+ c5084dc6e38a27372e3b489f7f1939f7 2687 main/binary-amd64/Packages.gz
  5588cce0075faa7e6646bb8a549ce81d 100 main/binary-amd64/Release
  6f33cb2038a0ea527b3f3290e74d4e11 1685 main/binary-arm64/Packages
  e9e3b9ff986187538499ad9b766b2436 817 main/binary-arm64/Packages.gz
@@ -15,8 +15,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  3eb59ecc80da7e63f053ca18667d5cd1 101 main/source/Release
 SHA1:
- 02c6250267bf1470a25e00fa6fe1d5ae2c47778e 7230 main/binary-amd64/Packages
- ca8ea67613f4ab3bb9f9faab073ed5bfd6541cab 2686 main/binary-amd64/Packages.gz
+ 6cd4cbc185f6bd2ae6065afbc3cdeefed6baaf3e 7230 main/binary-amd64/Packages
+ da822b1a3c038fd040d666d2593b5bebf4bd4f49 2687 main/binary-amd64/Packages.gz
  39de5849c31183bb661c68bf37868094353aec25 100 main/binary-amd64/Release
  bbe96b4b9316d2d309cb7d12283999a86e166b09 1685 main/binary-arm64/Packages
  bc06a92571dc99d2ec1b9ad6c7db4b311115d42d 817 main/binary-arm64/Packages.gz
@@ -25,8 +25,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  f46fdb477679c14b44e1ed28a8c4d625742fb87a 101 main/source/Release
 SHA256:
- 4e3a63ef9040214cb62294b7eddd5e11a3a6db0969aaa2429149405cd0a52223 7230 main/binary-amd64/Packages
- ea04e76dcd8c2d72f13bbbf555881a64b61713c59ac76c413ce8d3fbf34a1b23 2686 main/binary-amd64/Packages.gz
+ fdfcc8b99c4c1ee6c9726bc0fcab589379656c4a33c2f0d9f8251bf4962dfdb5 7230 main/binary-amd64/Packages
+ a8802f345ee4d577222fedc1bba82595e70bbc1c96d59dc989f67ac1075ab5f7 2687 main/binary-amd64/Packages.gz
  bcda8f750646dcad37c64b4a4978f72c223e5ffdc1e804a83bb9013475a559d4 100 main/binary-amd64/Release
  db24f572c3beb3a4a7853c61b8d5c8104edfbd4f75e4a01fd1ea09a46bc080f3 1685 main/binary-arm64/Packages
  0daf58c0b92668fa527c4d6529a73cc2c512e83cfe6a9276d19fb2161f0ebd27 817 main/binary-arm64/Packages.gz
