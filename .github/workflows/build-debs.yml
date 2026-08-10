@@ -13,8 +13,8 @@ jobs:
         include:
           - distro: noble
             image: ubuntu:24.04
-          - distro: bookworm
-            image: debian:bookworm
+          - distro: trixie
+            image: debian:trixie
 
     runs-on: ubuntu-latest
     container:
@@ -204,11 +204,11 @@ jobs:
           name: debs-noble
           path: incoming/noble
 
-      - name: Download bookworm debs
+      - name: Download trixie debs
         uses: actions/download-artifact@v4
         with:
-          name: debs-bookworm
-          path: incoming/bookworm
+          name: debs-trixie
+          path: incoming/trixie
 
       - name: Install reprepro
         run: sudo apt-get install -y reprepro gnupg
@@ -231,11 +231,11 @@ jobs:
           Description: Caffyne Shell apt repo (Ubuntu 24.04)
           SignWith: yes
 
-          Codename: bookworm
-          Suite: bookworm
+          Codename: trixie
+          Suite: trixie
           Components: main
           Architectures: amd64 arm64 source
-          Description: Caffyne Shell apt repo (Debian 12)
+          Description: Caffyne Shell apt repo (Debian 13)
           SignWith: yes
           EOF
 
@@ -248,8 +248,8 @@ jobs:
           for deb in incoming/noble/*.deb; do
             reprepro includedeb noble "$deb"
           done
-          for deb in incoming/bookworm/*.deb; do
-            reprepro includedeb bookworm "$deb"
+          for deb in incoming/trixie/*.deb; do
+            reprepro includedeb trixie "$deb"
           done
 
       - name: Generate repo index page
@@ -265,9 +265,9 @@ jobs:
           echo "deb [signed-by=/etc/apt/keyrings/caffyne.gpg] https://caffyne-org.github.io/caffyne-deb noble main" \
             | sudo tee /etc/apt/sources.list.d/caffyne.list
           </pre>
-          <h2>Debian 12 (bookworm)</h2>
+          <h2>Debian 13 (trixie)</h2>
           <pre>
-          echo "deb [signed-by=/etc/apt/keyrings/caffyne.gpg] https://caffyne-org.github.io/caffyne-deb bookworm main" \
+          echo "deb [signed-by=/etc/apt/keyrings/caffyne.gpg] https://caffyne-org.github.io/caffyne-deb trixie main" \
             | sudo tee /etc/apt/sources.list.d/caffyne.list
           </pre>
           </body>
