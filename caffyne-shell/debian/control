@@ -35,7 +35,7 @@ Depends: ${shlibs:Depends},
          gir1.2-gtklayershell-0.1,
          libdbusmenu-gtk3-4,
          cinnamon-core,
-         gnome-bluetooth,
+         gnome-bluetooth-3-common,
          matugen,
          playerctl,
          brightnessctl,
@@ -44,7 +44,7 @@ Depends: ${shlibs:Depends},
          network-manager,
          bluez,
          swayidle,
-         gtk-session-lock
+         libgtk-session-lock0 | gtk-session-lock
 Description: Modern GTK-based desktop shell built on top of Fabric
  caffyne shell is a modern, GTK-based desktop shell built on top of Fabric,
  Python, and GTK. It features a highly customizable drag-and-drop panel,

@@ -16,3 +16,4 @@ override_dh_auto_install:
 		debian/awww/usr/bin/awww-daemon
 
 override_dh_auto_test:
+override_dh_dwz:

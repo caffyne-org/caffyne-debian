@@ -14,3 +14,4 @@ override_dh_auto_install:
 		debian/matugen/usr/bin/matugen
 
 override_dh_auto_test:
+override_dh_dwz:
