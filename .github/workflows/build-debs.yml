@@ -112,7 +112,7 @@ jobs:
         run: |
           cd awww
           chmod +x debian/rules
-          dpkg-buildpackage -us -uc -b
+          dpkg-buildpackage -us -uc -b -d
           dpkg -i ../awww_*.deb
           cd ..
 
@@ -120,7 +120,7 @@ jobs:
         run: |
           cd matugen
           chmod +x debian/rules
-          dpkg-buildpackage -us -uc -b
+          dpkg-buildpackage -us -uc -b -d
           dpkg -i ../matugen_*.deb
           cd ..
 
