@@ -158,7 +158,7 @@ jobs:
       - name: Collect .deb files
         run: |
           mkdir -p output/${{ matrix.distro }}
-          cp ../*.deb output/${{ matrix.distro }}/
+          cp *.deb output/${{ matrix.distro }}/
           ls -lh output/${{ matrix.distro }}/
 
       - name: Upload .deb artifacts
