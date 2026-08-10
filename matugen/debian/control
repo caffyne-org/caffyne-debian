@@ -1,0 +1,18 @@
+Source: matugen
+Section: utils
+Priority: optional
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Build-Depends: debhelper-compat (= 13),
+               cargo,
+               rustc
+Standards-Version: 4.6.2
+Homepage: https://github.com/InioX/matugen
+Rules-Requires-Root: no
+
+Package: matugen
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Material You and base16 color generation tool
+ Matugen is a cross-platform tool that generates Material You and base16
+ color palettes from either an image or a single color, allowing you to
+ export them as JSON or reference them within templates.

@@ -1,0 +1,20 @@
+Source: fabric-cli
+Section: utils
+Priority: optional
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Build-Depends: debhelper-compat (= 13),
+               meson,
+               ninja-build,
+               gcc,
+               golang-go
+Standards-Version: 4.6.2
+Homepage: https://github.com/Fabric-Development/fabric-cli
+Rules-Requires-Root: no
+
+Package: fabric-cli
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Command-line interface for the Fabric desktop widget framework
+ fabric-cli is the command-line interface for the Fabric desktop widget
+ framework. It provides tooling for managing and interacting with Fabric
+ widget instances.

@@ -1,0 +1,20 @@
+Source: awww
+Section: x11
+Priority: optional
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Build-Depends: debhelper-compat (= 13),
+               cargo,
+               rustc,
+               liblz4-dev,
+               libwayland-dev,
+               wayland-protocols
+Standards-Version: 4.6.2
+Homepage: https://codeberg.org/LGFae/awww
+Rules-Requires-Root: no
+
+Package: awww
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Wayland wallpaper daemon
+ awww is a Wayland wallpaper daemon. It provides a daemon and a client
+ binary for setting and managing wallpapers on Wayland compositors.

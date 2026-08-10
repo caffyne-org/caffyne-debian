@@ -1,0 +1,23 @@
+Source: python-thefuzz
+Section: python
+Priority: optional
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-wheel,
+               python3-build
+Standards-Version: 4.6.2
+Homepage: https://github.com/seatgeek/thefuzz
+Rules-Requires-Root: no
+
+Package: python3-thefuzz
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         python3-rapidfuzz
+Description: Fuzzy string matching in Python
+ thefuzz is a Python library for fuzzy string matching using Levenshtein
+ distance. It provides simple-to-use functions for matching and scoring
+ strings against each other.

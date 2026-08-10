@@ -1,0 +1,52 @@
+Source: caffyne-shell
+Section: x11
+Priority: optional
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Build-Depends: debhelper-compat (= 13),
+               make,
+               gcc,
+               libwayland-dev,
+               libgtk-3-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/caffyne-org/caffyne-shell
+Rules-Requires-Root: no
+
+Package: caffyne-shell
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         python3-fabric-widgets (>= 0.0.2),
+         fabric-cli,
+         awww (>= 0.12.1),
+         python3-thefuzz,
+         python3-cffi,
+         python3-click,
+         python3-loguru,
+         python3-pam,
+         python3-pil,
+         python3-psutil,
+         python3-cairo,
+         python3-pycparser,
+         python3-gi,
+         python3-rapidfuzz,
+         python3-setproctitle,
+         python3-six,
+         gir1.2-gtk-3.0,
+         gir1.2-gtklayershell-0.1,
+         libdbusmenu-gtk3-4,
+         cinnamon-core,
+         gnome-bluetooth,
+         matugen,
+         playerctl,
+         brightnessctl,
+         wf-recorder,
+         upower,
+         network-manager,
+         bluez,
+         swayidle,
+         gtk-session-lock
+Description: Modern GTK-based desktop shell built on top of Fabric
+ caffyne shell is a modern, GTK-based desktop shell built on top of Fabric,
+ Python, and GTK. It features a highly customizable drag-and-drop panel,
+ fluid animations, and deeply integrated system applets designed specifically
+ for modern Wayland compositors.

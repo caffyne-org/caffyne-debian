@@ -1,0 +1,29 @@
+Source: python-fabric-widgets
+Section: python
+Priority: optional
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-wheel,
+               python3-build,
+               patchutils
+Standards-Version: 4.6.2
+Homepage: https://github.com/Fabric-Development/fabric
+Rules-Requires-Root: no
+
+Package: python3-fabric-widgets
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         python3-click,
+         python3-loguru,
+         python3-psutil,
+         python3-cairo,
+         python3-gi
+Description: Next-generation framework for building desktop widgets using Python
+ Fabric is a next-generation framework for building desktop widgets and
+ shell components using Python and GTK. It provides a high-level API for
+ creating Wayland layer shell surfaces, system applets, and desktop
+ integrations.

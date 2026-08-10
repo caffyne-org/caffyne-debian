@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+export CARGO_HOME = $(CURDIR)/debian/cargo-home
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	cargo build --release
+
+override_dh_auto_install:
+	install -Dm755 target/release/awww \
+		debian/awww/usr/bin/awww
+	install -Dm755 target/release/awww-daemon \
+		debian/awww/usr/bin/awww-daemon
+
+override_dh_auto_test:

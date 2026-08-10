@@ -1,0 +1,29 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	$(MAKE) -C snippets/blur/lib $(DEB_BUILD_OPTIONS)
+	$(MAKE) -C snippets/hacktk/lib $(DEB_BUILD_OPTIONS)
+
+override_dh_auto_install:
+	# Install shell data
+	install -d debian/caffyne-shell/usr/share/caffyne-shell
+	cp -r assets bar_widgets config desktop_applets greetd icons lightdm \
+		services snippets sounds style svgs themes utils wallpapers \
+		windows bar.py lockscreen.py main.py plugin_loader.py \
+		user_options.py \
+		debian/caffyne-shell/usr/share/caffyne-shell/
+
+	# Install launcher script
+	install -Dm755 caffyne-shell \
+		debian/caffyne-shell/usr/bin/caffyne-shell
+
+	# Ensure native libs are executable
+	chmod +x debian/caffyne-shell/usr/share/caffyne-shell/snippets/blur/lib/libblur.so
+	chmod +x debian/caffyne-shell/usr/share/caffyne-shell/snippets/hacktk/lib/libhacktk.so
+
+override_dh_auto_test:

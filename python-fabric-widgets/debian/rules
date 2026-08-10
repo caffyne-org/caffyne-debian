@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_configure:
+	# Strip pinned PyGObject version so system package is accepted
+	sed -i -E 's/[Pp][Yy][Gg][Oo][Bb][Jj][Ee][Cc][Tt][[:space:]]*==[[:space:]]*[0-9]+(\.[0-9]+)*/PyGObject/g' \
+		pyproject.toml setup.py || true
+
+override_dh_auto_test:

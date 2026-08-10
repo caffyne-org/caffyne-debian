@@ -1,0 +1,11 @@
+python-thefuzz (0.22.1-1) noble; urgency=medium
+
+  * Initial Debian/Ubuntu packaging.
+
+ -- Caffyne Maintainer <caffyne@proton.me>  Mon, 10 Aug 2026 00:00:00 +0000
+
+python-thefuzz (0.22.1-1~bpo12+1) bookworm-backports; urgency=medium
+
+  * Backport to Debian bookworm.
+
+ -- Caffyne Maintainer <caffyne@proton.me>  Mon, 10 Aug 2026 00:00:00 +0000
