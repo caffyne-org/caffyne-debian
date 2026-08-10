@@ -113,7 +113,7 @@ jobs:
           cd awww
           chmod +x debian/rules
           dpkg-buildpackage -us -uc -b -d
-          dpkg -i ../awww_*.deb
+          apt-get install -y ../awww_*.deb
           cd ..
 
       - name: Build matugen
@@ -121,7 +121,7 @@ jobs:
           cd matugen
           chmod +x debian/rules
           dpkg-buildpackage -us -uc -b -d
-          dpkg -i ../matugen_*.deb
+          apt-get install -y ../matugen_*.deb
           cd ..
 
       - name: Build fabric-cli
@@ -129,7 +129,7 @@ jobs:
           cd fabric-cli
           chmod +x debian/rules
           dpkg-buildpackage -us -uc -b
-          dpkg -i ../fabric-cli_*.deb
+          apt-get install -y ../fabric-cli_*.deb
           cd ..
 
       - name: Build python-fabric-widgets
@@ -137,7 +137,7 @@ jobs:
           cd python-fabric-widgets
           chmod +x debian/rules
           dpkg-buildpackage -us -uc -b
-          dpkg -i ../python3-fabric-widgets_*.deb
+          apt-get install -y ../python3-fabric-widgets_*.deb
           cd ..
 
       - name: Build python-thefuzz
@@ -145,7 +145,7 @@ jobs:
           cd python-thefuzz
           chmod +x debian/rules
           dpkg-buildpackage -us -uc -b
-          dpkg -i ../python3-thefuzz_*.deb
+          apt-get install -y ../python3-thefuzz_*.deb
           cd ..
 
       - name: Build caffyne-shell
