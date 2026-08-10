@@ -224,6 +224,8 @@ jobs:
       - name: Set up reprepro config
         run: |
           mkdir -p conf
+          # Wipe any existing reprepro db to avoid stale file conflicts
+          rm -rf db pool dists
 
           cat > conf/distributions << 'EOF'
           Codename: noble
