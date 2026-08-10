@@ -8,10 +8,10 @@ Homepage: https://codeberg.org/LGFae/awww
 Priority: optional
 Section: x11
 Filename: pool/main/a/awww/awww_0.12.1-1+trixie_amd64.deb
-Size: 2122004
-SHA256: 1c2061082537b55ef72782ab42afaf16ef3a12d2924a24f47a8d3d025e59c544
-SHA1: 6f0ad33338143b1ce6e948b2246533da2e46692f
-MD5sum: 95496a1c05db99e8d418b66d268f801b
+Size: 2127528
+SHA256: 422615eaf4aea74f12765501eedf9084904e2bc48976a666a787a92612ab8a87
+SHA1: b161a4d90245890cf7e0bac013471e52b248d47e
+MD5sum: b4ed74895fd1a244cea161d3748830d1
 Description: Wayland wallpaper daemon
  awww is a Wayland wallpaper daemon. It provides a daemon and a client
  binary for setting and managing wallpapers on Wayland compositors.
