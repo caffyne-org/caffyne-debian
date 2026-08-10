@@ -184,6 +184,7 @@ jobs:
         with:
           ref: gh-pages
           fetch-depth: 0
+          submodules: false
         continue-on-error: true
 
       - name: Set up gh-pages branch if missing
