@@ -1,0 +1,40 @@
+Source: gtk-session-lock
+Section: libs
+Priority: optional
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Build-Depends: debhelper-compat (= 13),
+               meson,
+               ninja-build,
+               gcc,
+               libwayland-dev,
+               libgtk-3-dev,
+               gobject-introspection,
+               libgirepository1.0-dev,
+               gtk-doc-tools,
+               valac
+Standards-Version: 4.6.2
+Homepage: https://github.com/Cu3PO42/gtk-session-lock
+Rules-Requires-Root: no
+
+Package: libgtk-session-lock0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Library to build screen lockers using GTK3 and ext-session-lock-v1
+ gtk-session-lock is a library to use GTK 3 to build screen lockers using
+ the secure ext-session-lock-v1 Wayland protocol. It is compatible with C,
+ C++ and any language that supports GObject introspection.
+
+Package: libgtk-session-lock-dev
+Architecture: any
+Section: libdevel
+Depends: libgtk-session-lock0 (= ${binary:Version}), ${misc:Depends}
+Description: Development files for gtk-session-lock
+ Development headers and pkg-config file for gtk-session-lock.
+
+Package: gir1.2-gtk-session-lock-0.1
+Architecture: any
+Section: introspection
+Depends: ${gir:Depends}, ${misc:Depends}
+Description: GObject introspection data for gtk-session-lock
+ GObject introspection typelib for gtk-session-lock, allowing the library
+ to be used from Python and other GObject introspection supported languages.

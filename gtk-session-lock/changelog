@@ -1,0 +1,11 @@
+gtk-session-lock (0.2.0-1) noble; urgency=medium
+
+  * Initial Debian/Ubuntu packaging.
+
+ -- Caffyne Maintainer <caffyne@proton.me>  Mon, 10 Aug 2026 00:00:00 +0000
+
+gtk-session-lock (0.2.0-1~trixie+1) trixie; urgency=medium
+
+  * Package for Debian trixie.
+
+ -- Caffyne Maintainer <caffyne@proton.me>  Mon, 10 Aug 2026 00:00:00 +0000

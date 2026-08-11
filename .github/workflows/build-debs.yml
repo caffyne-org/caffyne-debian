@@ -94,6 +94,13 @@ jobs:
           rm thefuzz-0.22.1.tar.gz
           cd ..
 
+          # gtk-session-lock
+          cd gtk-session-lock
+          wget -q https://github.com/Cu3PO42/gtk-session-lock/archive/refs/tags/v0.2.0.tar.gz
+          tar --strip-components=1 -xf v0.2.0.tar.gz
+          rm v0.2.0.tar.gz
+          cd ..
+
           # caffyne-shell
           cd caffyne-shell
           wget -q https://github.com/caffyne-org/caffyne-shell/archive/refs/heads/main.tar.gz
@@ -103,7 +110,7 @@ jobs:
 
       - name: Update changelogs for distro
         run: |
-          for pkg in awww matugen fabric-cli python-fabric-widgets python-thefuzz caffyne-shell; do
+          for pkg in awww matugen fabric-cli python-fabric-widgets python-thefuzz gtk-session-lock caffyne-shell; do
             sed -i "1s/) [a-z]*/\) ${{ matrix.distro }}/" $pkg/debian/changelog
             # Append distro suffix to version to avoid reprepro pool collisions
             sed -i "1s/(\([^)]*\))/(\1+${{ matrix.distro }})/" $pkg/debian/changelog
@@ -147,6 +154,14 @@ jobs:
           chmod +x debian/rules
           dpkg-buildpackage -us -uc -b
           apt-get install -y ../python3-thefuzz_*.deb
+          cd ..
+
+      - name: Build gtk-session-lock
+        run: |
+          cd gtk-session-lock
+          chmod +x debian/rules
+          dpkg-buildpackage -us -uc -b
+          apt-get install -y ../libgtk-session-lock0_*.deb ../libgtk-session-lock-dev_*.deb ../gir1.2-gtk-session-lock-0.1_*.deb
           cd ..
 
       - name: Build caffyne-shell
@@ -194,12 +209,6 @@ jobs:
             git rm -rf . 2>/dev/null || true
             mkdir -p dists
           fi
-
-      - name: Checkout packaging repo to temp dir
-        uses: actions/checkout@v4
-        with:
-          path: packaging
-          submodules: false
 
       - name: Download noble debs
         uses: actions/download-artifact@v4

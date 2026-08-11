@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+
+%:
+	dh $@ --buildsystem=meson
+
+override_dh_auto_configure:
+	dh_auto_configure -- -Dintrospection=true -Dvapi=false
+
+override_dh_auto_test:
+override_dh_dwz:
