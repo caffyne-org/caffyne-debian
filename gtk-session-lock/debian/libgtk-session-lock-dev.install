@@ -1,0 +1,4 @@
+usr/include/gtk-session-lock/gtk-session-lock.h
+usr/lib/*/libgtk-session-lock.so
+usr/lib/*/pkgconfig/gtk-session-lock-0.pc
+usr/share/gir-1.0/GtkSessionLock-0.1.gir
