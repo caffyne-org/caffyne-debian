@@ -3,13 +3,13 @@ Hash: SHA512
 
 Suite: noble
 Codename: noble
-Date: Mon, 10 Aug 2026 23:27:54 UTC
+Date: Tue, 11 Aug 2026 00:48:29 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Caffyne Shell apt repo (Ubuntu 24.04)
 MD5Sum:
- eaa63e7fb132cda468aa95fd483540f5 5311 main/binary-amd64/Packages
- 2ef7a7ab6a3d45796f27fb7a4dd271fe 2118 main/binary-amd64/Packages.gz
+ dcad3d5e48a0c64d8544ca618a7c671d 7713 main/binary-amd64/Packages
+ 76fef1d09be7f60b4530eb230ac15742 2759 main/binary-amd64/Packages.gz
  7c0f8fbf8de47f73ca0f0b20fae326cb 102 main/binary-amd64/Release
  f9cb85601ab8030056fba939652516ce 1680 main/binary-arm64/Packages
  ee27d36d7a44a54c4d5296069d914e18 817 main/binary-arm64/Packages.gz
@@ -18,8 +18,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  fbb831c1c76f7e879f475375516f28fb 103 main/source/Release
 SHA1:
- 455b63ae682215ea5659412b16ce2e3771249238 5311 main/binary-amd64/Packages
- 93d3efdc6329c46c628bc75df30129d2346ad5cc 2118 main/binary-amd64/Packages.gz
+ 592c8928762aee1e2fcd765c2be9906aa0ad00f3 7713 main/binary-amd64/Packages
+ 314d7ba18ccb4781f71ffc1878ccf9579abe8762 2759 main/binary-amd64/Packages.gz
  ee063462c75fddcbb7d0e242806854b486244dcd 102 main/binary-amd64/Release
  0dd1a28f4b510d6b8799848c0bf7a22ce359261f 1680 main/binary-arm64/Packages
  665669669c5336ec25fd1a4cc2b39ccfcc97da6c 817 main/binary-arm64/Packages.gz
@@ -28,8 +28,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  e72644b1a6390b72f2dae8ced99c252117b4a0be 103 main/source/Release
 SHA256:
- 7a6a4a4d85b44c7b96f0d115864e4199a798a712a74370f89feff27224f86b77 5311 main/binary-amd64/Packages
- 4c49a2eb6e8c57699fcc379308e0ddaf6e314798901d2dc25b29d46738f9e61d 2118 main/binary-amd64/Packages.gz
+ aee8c8b58a57591a90896fd1380ddb711060c42c6fb4fd235cc6edf75499d3b6 7713 main/binary-amd64/Packages
+ 9107c7f24e05bb65fdbc7715d9a81633699091fd0d1fac4cd5a14f99eb839f80 2759 main/binary-amd64/Packages.gz
  e220e7602b7dffb6ef6d63cc8a0dac5d27939db0b917ff97765f804500b1ba69 102 main/binary-amd64/Release
  f5acd279afcd1b7f17abec9785594c7e843fb1d3b025180c5b1c1d6c1a9f270b 1680 main/binary-arm64/Packages
  52a067b4a744b4d97b69e0ba73810fb6a68f768cc0c41c027fbeb47e78a4a6a8 817 main/binary-arm64/Packages.gz
@@ -39,8 +39,8 @@ SHA256:
  c5b4b5d7061cf83f23a3231009d6e342d30685f6d2059e0b2672cb8c990ec975 103 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQle40fZk4037H7N7V1+rPWrPVyzAUCanpeegAKCRB1+rPWrPVy
-zCQDAP0VcXgRqh+pRTKn0fEJ4p5FbcSwfLESTTrA0MjW+9V05gD/RNtZuD0Fj2bN
-nIOcuw4dnlzmoEmAmsopXuCOQRKT9w8=
-=XYQL
+iHUEARYKAB0WIQQle40fZk4037H7N7V1+rPWrPVyzAUCanpxXQAKCRB1+rPWrPVy
+zAadAQCLRaQlMo1cMzjaJM4F4mbysy5DG5p2urBwqJdA4hazzAEA1HOSnoU2Lpmq
+feBinGyIyt5qjQ8BgdKg7OFDxPiY1Qw=
+=3QE3
 -----END PGP SIGNATURE-----

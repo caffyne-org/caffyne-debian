@@ -8,10 +8,10 @@ Homepage: https://codeberg.org/LGFae/awww
 Priority: optional
 Section: x11
 Filename: pool/main/a/awww/awww_0.12.1-1+noble_amd64.deb
-Size: 2285504
-SHA256: e14276ae56a37e214e7fb7bb758e158200b76f0a0567cd81d5e7a99261160113
-SHA1: abd85838e707e4d6461ccf07ce5bff2fd6cce00e
-MD5sum: 4b1a3047a437a6d3a6ffe489d571d73f
+Size: 2284342
+SHA256: e1411baecfceae91a94ceee706cfe26cb6b543ece9a0264b0a1fed6fd79287a9
+SHA1: 9cdb58782e1411900070713f0d1a32d1f2d580fe
+MD5sum: 21fdae1e4d7630918d77b711e9dbd22e
 Description: Wayland wallpaper daemon
  awww is a Wayland wallpaper daemon. It provides a daemon and a client
  binary for setting and managing wallpapers on Wayland compositors.
@@ -21,15 +21,15 @@ Version: 1.0.0-1+noble
 Architecture: amd64
 Maintainer: Caffyne Maintainer <caffyne@proton.me>
 Installed-Size: 27262
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.9.10), libwayland-client0 (>= 1.20.0), python3-fabric-widgets (>= 0.0.2), fabric-cli, awww (>= 0.12.1), python3-thefuzz, python3-cffi, python3-click, python3-loguru, python3-pam, python3-pil, python3-psutil, python3-cairo, python3-pycparser, python3-gi, python3-rapidfuzz, python3-setproctitle, python3-six, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, libdbusmenu-gtk3-4, cinnamon-core, gnome-bluetooth-3-common, matugen, playerctl, brightnessctl, wf-recorder, upower, network-manager, bluez, swayidle, libgtk-session-lock0 | gtk-session-lock
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.9.10), libwayland-client0 (>= 1.20.0), python3-fabric-widgets (>= 0.0.2), fabric-cli, awww (>= 0.12.1), python3-thefuzz, python3-cffi, python3-click, python3-loguru, python3-pam, python3-pil, python3-psutil, python3-cairo, python3-pycparser, python3-gi, python3-rapidfuzz, python3-setproctitle, python3-six, gir1.2-gtk-3.0, gir1.2-gtklayershell-0.1, gir1.2-playerctl-2.0, gir1.2-dbusmenu-gtk3-0.4, libdbusmenu-gtk3-4, cinnamon-core, gnome-bluetooth-3-common, matugen, playerctl, brightnessctl, wf-recorder, upower, network-manager, bluez, swayidle, libgtk-session-lock0, gir1.2-gtk-session-lock-0.1
 Homepage: https://github.com/caffyne-org/caffyne-shell
 Priority: optional
 Section: x11
 Filename: pool/main/c/caffyne-shell/caffyne-shell_1.0.0-1+noble_amd64.deb
-Size: 22634758
-SHA256: 892347ec0e7c034b415383957c854d75a00daf2fc3e046edb82e005816129b05
-SHA1: 4baa0a559a397513ca718850fa96f4b167ca3787
-MD5sum: 29fa172f00db92116dab9a6052301e2b
+Size: 22634712
+SHA256: 7b6f454f7dd5fff445c861a2298d21ed8c8f77f67056212e3fe424bdff1903f6
+SHA1: 5845ef295b37cb52daf37917030ab9bfb46731cd
+MD5sum: 71f838d1d99903b347477092fc1f53f9
 Description: Modern GTK-based desktop shell built on top of Fabric
  caffyne shell is a modern, GTK-based desktop shell built on top of Fabric,
  Python, and GTK. It features a highly customizable drag-and-drop panel,
@@ -54,6 +54,62 @@ Description: Command-line interface for the Fabric desktop widget framework
  fabric-cli is the command-line interface for the Fabric desktop widget
  framework. It provides tooling for managing and interacting with Fabric
  widget instances.
+
+Package: gir1.2-gtk-session-lock-0.1
+Source: gtk-session-lock
+Version: 0.2.0-1+noble
+Architecture: amd64
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 15
+Homepage: https://github.com/Cu3PO42/gtk-session-lock
+Priority: optional
+Section: introspection
+Filename: pool/main/g/gtk-session-lock/gir1.2-gtk-session-lock-0.1_0.2.0-1+noble_amd64.deb
+Size: 2842
+SHA256: e86cbcb28265f0d1a71a1fa146606a4859a5fd2838c743200d0e4ceb6d1d82cc
+SHA1: 074fe2fe4cd15719d99069e22f94c9a0ae47a2b2
+MD5sum: d2780da4883b2985ff0c6f6c6fddb501
+Description: GObject introspection data for gtk-session-lock
+ GObject introspection typelib for gtk-session-lock, allowing the library
+ to be used from Python and other GObject introspection supported languages.
+
+Package: libgtk-session-lock-dev
+Source: gtk-session-lock
+Version: 0.2.0-1+noble
+Architecture: amd64
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 33
+Depends: libgtk-session-lock0 (= 0.2.0-1+noble)
+Homepage: https://github.com/Cu3PO42/gtk-session-lock
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gtk-session-lock/libgtk-session-lock-dev_0.2.0-1+noble_amd64.deb
+Size: 4856
+SHA256: 8d7055bf9353f8f9306e56ec3788f08212ed92d642a2d32e72cde85c8826f533
+SHA1: ec76d2cf460bd352a01d1210853e42826c4b45c4
+MD5sum: 8eb21fab9af8aa02e9035c1a47e5d9d7
+Description: Development files for gtk-session-lock
+ Development headers and pkg-config file for gtk-session-lock.
+
+Package: libgtk-session-lock0
+Source: gtk-session-lock
+Version: 0.2.0-1+noble
+Architecture: amd64
+Maintainer: Caffyne Maintainer <caffyne@proton.me>
+Installed-Size: 41
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.79.0), libgtk-3-0t64 (>= 3.21.4), libwayland-client0 (>= 1.20.0)
+Homepage: https://github.com/Cu3PO42/gtk-session-lock
+Priority: optional
+Section: libs
+Filename: pool/main/g/gtk-session-lock/libgtk-session-lock0_0.2.0-1+noble_amd64.deb
+Size: 9544
+SHA256: 4a633974e906915d597e6da0ac06051d761229d43a37b228ed0e7b5fcea1b0c4
+SHA1: 9131d88bc19ea195ef0ee8fad43c44fa3a3dc3d3
+MD5sum: 737e170f3d19bed3a81923850c1700b2
+Description: Library to build screen lockers using GTK3 and ext-session-lock-v1
+ gtk-session-lock is a library to use GTK 3 to build screen lockers using
+ the secure ext-session-lock-v1 Wayland protocol. It is compatible with C,
+ C++ and any language that supports GObject introspection.
 
 Package: matugen
 Version: 4.1.0-1+noble

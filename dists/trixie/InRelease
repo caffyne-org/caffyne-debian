@@ -3,13 +3,13 @@ Hash: SHA512
 
 Suite: trixie
 Codename: trixie
-Date: Mon, 10 Aug 2026 23:27:54 UTC
+Date: Tue, 11 Aug 2026 00:48:29 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Caffyne Shell apt repo (Debian 13)
 MD5Sum:
- ce9a5b587f60139a36bca8b0afec1f47 7230 main/binary-amd64/Packages
- c5084dc6e38a27372e3b489f7f1939f7 2687 main/binary-amd64/Packages.gz
+ 3c85440d8d53ee3eb7f467afabdd04c7 10306 main/binary-amd64/Packages
+ 4370d44df19c78236bd654e8e747b915 3483 main/binary-amd64/Packages.gz
  5588cce0075faa7e6646bb8a549ce81d 100 main/binary-amd64/Release
  6f33cb2038a0ea527b3f3290e74d4e11 1685 main/binary-arm64/Packages
  e9e3b9ff986187538499ad9b766b2436 817 main/binary-arm64/Packages.gz
@@ -18,8 +18,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  3eb59ecc80da7e63f053ca18667d5cd1 101 main/source/Release
 SHA1:
- 6cd4cbc185f6bd2ae6065afbc3cdeefed6baaf3e 7230 main/binary-amd64/Packages
- da822b1a3c038fd040d666d2593b5bebf4bd4f49 2687 main/binary-amd64/Packages.gz
+ 1a53aaa6aacdaae2bcec3e66a61b5c15967d0bc5 10306 main/binary-amd64/Packages
+ 0730e1c6c6edf8095b980c0292ceb3ef9d2e3302 3483 main/binary-amd64/Packages.gz
  39de5849c31183bb661c68bf37868094353aec25 100 main/binary-amd64/Release
  bbe96b4b9316d2d309cb7d12283999a86e166b09 1685 main/binary-arm64/Packages
  bc06a92571dc99d2ec1b9ad6c7db4b311115d42d 817 main/binary-arm64/Packages.gz
@@ -28,8 +28,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  f46fdb477679c14b44e1ed28a8c4d625742fb87a 101 main/source/Release
 SHA256:
- fdfcc8b99c4c1ee6c9726bc0fcab589379656c4a33c2f0d9f8251bf4962dfdb5 7230 main/binary-amd64/Packages
- a8802f345ee4d577222fedc1bba82595e70bbc1c96d59dc989f67ac1075ab5f7 2687 main/binary-amd64/Packages.gz
+ 7dfcbd12d5a315ff03dca65013d7d7668de817f55344367f1768fae7f3c20f36 10306 main/binary-amd64/Packages
+ 75667b4ced0eb371b8a8fa5e7de7edbacab47fe94aeda2de70603675281dc592 3483 main/binary-amd64/Packages.gz
  bcda8f750646dcad37c64b4a4978f72c223e5ffdc1e804a83bb9013475a559d4 100 main/binary-amd64/Release
  db24f572c3beb3a4a7853c61b8d5c8104edfbd4f75e4a01fd1ea09a46bc080f3 1685 main/binary-arm64/Packages
  0daf58c0b92668fa527c4d6529a73cc2c512e83cfe6a9276d19fb2161f0ebd27 817 main/binary-arm64/Packages.gz
@@ -39,8 +39,8 @@ SHA256:
  945ec0b9b09db5decbb7ed09427b5caeb44a432f7844a47c994c84dadae04022 101 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQle40fZk4037H7N7V1+rPWrPVyzAUCanpeegAKCRB1+rPWrPVy
-zM/QAP9HZ9GcMz5qzUr+cGXU6oUNF2Z5R55vYYQ5hEYEm2n0eAEAtRXMBKx466q6
-E3oPVJXql9g4XGuPF42zD2fCPZrCgQg=
-=lI/b
+iHUEARYKAB0WIQQle40fZk4037H7N7V1+rPWrPVyzAUCanpxXQAKCRB1+rPWrPVy
+zN3jAP4uRP8b5h2ewkwZwanBFJjUIIbFg8/UekaxuQCPwFPJJAD9GUGum6gpNaMD
+LpDG9Q0X3+1W2k35D5K6P6R06a6MZgA=
+=yBTD
 -----END PGP SIGNATURE-----
